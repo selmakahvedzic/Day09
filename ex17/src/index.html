@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere stretching attack your ankles
+    chase the red dot, hairball run catnip eat the grass sniff.
+</p>
+
+<p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep
+    in the sink fluffy fur catnip scratched.
+</p>
+
+<label for="inside">
+    <div>
+        <input id="inside" type="radio" name="inside-outside" value="Inside" checked>Inside
+    </div>
+    <div>
+        <input type="checkbox" name="favourite-pet" value="Dog" checked>Dog
+        <input type="checkbox" name="favourite-pet" value="Cat">Cat
+        <input type="checkbox" name="favourite-pet" value="Hamster">Hamster
+        <input type="checkbox" name="favourite-pet" value="Bird">Bird
+        <input type="checkbox" name="favourite-pet" value="Fish">Fish
+
+    </div>
+</label>
+
+<label for="outside">
+    <div> <input id="outside" type="radio" name="inside-outside" value="Outside">Outside
+    </div>
+    <div>
+        <input type="checkbox" name="favourite-pet" value="Dog">Dog
+        <input type="checkbox" name="favourite-pet" value="Cat">Cat
+        <input type="checkbox" name="favourite-pet" value="Hamster">Hamster
+        <input type="checkbox" name="favourite-pet" value="Bird">Bird
+        <input type="checkbox" name="favourite-pet" value="Fish">Fish
+
+    </div>
+</label>
+<br></br>
+
+<input type="text" placeholder="cat photo URL" required>
+<!--We can submit form without entering anything-->
+<br></br>
+<form action="/submit-cat-photo"><button type="submit">Submit</button></form>
+<br></br>
+<main>
+
+    <a href="#">
+        <img src="https://images.pexels.com/photos/1693441/pexels-photo-1693441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Picture of cat" width="600" height="500">
+    </a>
+    <p>View more
+        <a href="#">cat photos</a>
+    </p>
+
+    <ul> Things cats love:
+        <li>cuddle</li>
+        <li>eat</li>
+        <li>sleep</li>
+    </ul>
+    <ol> Top 3 things cats hate:
+        <li>Jerry</li>
+        <li>othercat</li>
+        <li>dogs</li>
+    </ol>
+</main>
+<footer id="footer"> </footer>
+
+</html>
