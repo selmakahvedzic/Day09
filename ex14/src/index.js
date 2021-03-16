@@ -3,7 +3,7 @@ function myForLoop1() {
   var i = 0;
   for (i = 0; i <= 8; i++) {
     if (i % 2 == 0 && i != 8) {
-      evenNumbers += i.toString() + ",";
+      evenNumbers += i.toString() + "," + " ";
     } else if (i == 8) {
       evenNumbers += i.toString();
     }
@@ -16,7 +16,7 @@ function myForLoop2() {
   var i = 0;
   for (i = 8; i >= 0; i--) {
     if (i % 2 == 0 && i != 0) {
-      evenInverseNumbers += i.toString() + ",";
+      evenInverseNumbers += i.toString() + "," + " ";
     } else if (i == 0) {
       evenInverseNumbers += i.toString();
     }
